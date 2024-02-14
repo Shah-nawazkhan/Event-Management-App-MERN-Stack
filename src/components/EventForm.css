@@ -1,0 +1,39 @@
+input {
+    padding: 5px;
+    width: 500px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(255, 0, 238);
+    padding: 20px;
+    border-radius: 10px;
+    gap: 5px;
+    background: linear-gradient(to right, #009dff, #a347ff);
+    ;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+  }
+
+  .btn {
+    color: black;
+    background-color: white;
+    padding: 8px;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 4px 8px green;
+    background-color: rgb(89, 206, 89);
+  }
